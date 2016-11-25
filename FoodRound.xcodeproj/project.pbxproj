@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A8F95A781EEC21E23053CA2 /* Pods_FoodRound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BB8D7247BC19A594C03A31 /* Pods_FoodRound.framework */; };
 		5411515F1DB6186A0041E76B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5411515E1DB6186A0041E76B /* AppDelegate.swift */; };
-		541151611DB6186A0041E76B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541151601DB6186A0041E76B /* ViewController.swift */; };
-		541151641DB6186A0041E76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541151621DB6186A0041E76B /* Main.storyboard */; };
 		541151661DB6186A0041E76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541151651DB6186A0041E76B /* Assets.xcassets */; };
 		541151691DB6186A0041E76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541151671DB6186A0041E76B /* LaunchScreen.storyboard */; };
+		541151721DB618F80041E76B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541151711DB618F80041E76B /* CustomTabBarController.swift */; };
+		541151751DB619570041E76B /* FavMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541151741DB619570041E76B /* FavMainViewController.swift */; };
+		545DF7C51DB7243D0007B223 /* FavNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545DF7C41DB7243D0007B223 /* FavNewController.swift */; };
+		545DF7C71DB739D70007B223 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545DF7C61DB739D70007B223 /* MainCell.swift */; };
+		545DF7C91DB765470007B223 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545DF7C81DB765470007B223 /* LogInViewController.swift */; };
+		545DF7CB1DB86A300007B223 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545DF7CA1DB86A300007B223 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33BB8D7247BC19A594C03A31 /* Pods_FoodRound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5411515B1DB6186A0041E76B /* FoodRound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5411515E1DB6186A0041E76B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		541151601DB6186A0041E76B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		541151631DB6186A0041E76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		541151651DB6186A0041E76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541151681DB6186A0041E76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5411516A1DB6186A0041E76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541151711DB618F80041E76B /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		541151741DB619570041E76B /* FavMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavMainViewController.swift; sourceTree = "<group>"; };
+		545DF7C41DB7243D0007B223 /* FavNewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavNewController.swift; sourceTree = "<group>"; };
+		545DF7C61DB739D70007B223 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		545DF7C81DB765470007B223 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		545DF7CA1DB86A300007B223 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		545DF7CD1DB896E70007B223 /* FoodRound-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodRound-Bridging-Header.h"; sourceTree = "<group>"; };
+		545DF7D01DB8A36C0007B223 /* FoodRound.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodRound.entitlements; sourceTree = "<group>"; };
+		545DF7D21DB8A8400007B223 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		54739DCB7A991BBBD377DF60 /* Pods-FoodRound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRound.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodRound/Pods-FoodRound.release.xcconfig"; sourceTree = "<group>"; };
+		BB4DF7428318931A1D8E94F2 /* Pods-FoodRound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodRound/Pods-FoodRound.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8F95A781EEC21E23053CA2 /* Pods_FoodRound.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		318D7420E515CFF5D239967E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33BB8D7247BC19A594C03A31 /* Pods_FoodRound.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415A7D62746B2D097BCC94EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB4DF7428318931A1D8E94F2 /* Pods-FoodRound.debug.xcconfig */,
+				54739DCB7A991BBBD377DF60 /* Pods-FoodRound.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		541151521DB6186A0041E76B = {
 			isa = PBXGroup;
 			children = (
+				545DF7C31DB715500007B223 /* Cell */,
+				541151731DB619440041E76B /* VC */,
+				541151701DB618DA0041E76B /* TabBar */,
 				5411515D1DB6186A0041E76B /* FoodRound */,
 				5411515C1DB6186A0041E76B /* Products */,
+				415A7D62746B2D097BCC94EB /* Pods */,
+				318D7420E515CFF5D239967E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +93,40 @@
 			isa = PBXGroup;
 			children = (
 				5411515E1DB6186A0041E76B /* AppDelegate.swift */,
-				541151601DB6186A0041E76B /* ViewController.swift */,
-				541151621DB6186A0041E76B /* Main.storyboard */,
 				541151651DB6186A0041E76B /* Assets.xcassets */,
 				541151671DB6186A0041E76B /* LaunchScreen.storyboard */,
+				545DF7D01DB8A36C0007B223 /* FoodRound.entitlements */,
 				5411516A1DB6186A0041E76B /* Info.plist */,
+				545DF7CA1DB86A300007B223 /* GoogleService-Info.plist */,
+				545DF7CD1DB896E70007B223 /* FoodRound-Bridging-Header.h */,
 			);
 			path = FoodRound;
+			sourceTree = "<group>";
+		};
+		541151701DB618DA0041E76B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				541151711DB618F80041E76B /* CustomTabBarController.swift */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		541151731DB619440041E76B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				545DF7C81DB765470007B223 /* LogInViewController.swift */,
+				541151741DB619570041E76B /* FavMainViewController.swift */,
+				545DF7C41DB7243D0007B223 /* FavNewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		545DF7C31DB715500007B223 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				545DF7C61DB739D70007B223 /* MainCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5411516D1DB6186A0041E76B /* Build configuration list for PBXNativeTarget "FoodRound" */;
 			buildPhases = (
+				A3600F8755D7AF604400979D /* [CP] Check Pods Manifest.lock */,
 				541151571DB6186A0041E76B /* Sources */,
 				541151581DB6186A0041E76B /* Frameworks */,
 				541151591DB6186A0041E76B /* Resources */,
+				8DF7ADA73F3A0859E75F8F80 /* [CP] Embed Pods Frameworks */,
+				595EA18DBCD1DF78246F3C37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,13 +159,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Chang sean";
 				TargetAttributes = {
 					5411515A1DB6186A0041E76B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 88X7Y2S7CR;
+						DevelopmentTeam = K87D69K4N4;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,38 +199,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				541151691DB6186A0041E76B /* LaunchScreen.storyboard in Resources */,
+				545DF7CB1DB86A300007B223 /* GoogleService-Info.plist in Resources */,
 				541151661DB6186A0041E76B /* Assets.xcassets in Resources */,
-				541151641DB6186A0041E76B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595EA18DBCD1DF78246F3C37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodRound/Pods-FoodRound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF7ADA73F3A0859E75F8F80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodRound/Pods-FoodRound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3600F8755D7AF604400979D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		541151571DB6186A0041E76B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				541151611DB6186A0041E76B /* ViewController.swift in Sources */,
 				5411515F1DB6186A0041E76B /* AppDelegate.swift in Sources */,
+				545DF7C71DB739D70007B223 /* MainCell.swift in Sources */,
+				545DF7C91DB765470007B223 /* LogInViewController.swift in Sources */,
+				541151721DB618F80041E76B /* CustomTabBarController.swift in Sources */,
+				545DF7C51DB7243D0007B223 /* FavNewController.swift in Sources */,
+				541151751DB619570041E76B /* FavMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		541151621DB6186A0041E76B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				541151631DB6186A0041E76B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		541151671DB6186A0041E76B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				541151681DB6186A0041E76B /* Base */,
+				545DF7D21DB8A8400007B223 /* zh-Hant-TW */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -182,6 +302,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -217,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -231,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,26 +380,35 @@
 		};
 		5411516E1DB6186A0041E76B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4DF7428318931A1D8E94F2 /* Pods-FoodRound.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 88X7Y2S7CR;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodRound/FoodRound.entitlements;
+				DEVELOPMENT_TEAM = K87D69K4N4;
 				INFOPLIST_FILE = FoodRound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.FoodRound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodRound/FoodRound-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5411516F1DB6186A0041E76B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54739DCB7A991BBBD377DF60 /* Pods-FoodRound.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 88X7Y2S7CR;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodRound/FoodRound.entitlements;
+				DEVELOPMENT_TEAM = K87D69K4N4;
 				INFOPLIST_FILE = FoodRound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.FoodRound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodRound/FoodRound-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +432,7 @@
 				5411516F1DB6186A0041E76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
