@@ -84,6 +84,7 @@ class FavMainViewController: UIViewController, UISearchBarDelegate, UITableViewD
     func setSearchBar() {
         searchBar = UISearchBar()
         searchBar.delegate = self
+        
         searchBar.frame = CGRect(x: 0,y: 0,width: width,height: 35)
         searchBar.layer.position = CGPoint(x: width * 0.5, y: 82)//(x: self.view.bounds.width / 2, y: 100)
         
